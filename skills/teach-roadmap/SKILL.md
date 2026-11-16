@@ -1,6 +1,5 @@
-
 ---
-name: teach-lesson
+name: teach-roadmap
 description: Teach or resume a specific session from an existing learning roadmap. Use when the user requests a numbered lesson such as 2.3, asks to continue a roadmap, or wants to study the next session. Retrieve the session outline and relevant past learning notes when connected sources are available.
 ---
 

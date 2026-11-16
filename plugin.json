@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "learning-roadmap-architect",
+  "version": "0.1.0",
+  "description": "Create structured learning roadmaps and teach individual lessons using prior learning context when available.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Learning Roadmap Architect",
+        "shortDescription": "Create roadmaps and study lessons",
+        "longDescription": "Design progressive learning curricula, teach individual sessions, and use relevant previous learning notes when available.",
+        "developerName": "AmirAP",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Create a structured learning roadmap for guitar music theory.",
+          "Teach lesson 1.1 from my existing learning roadmap."
+        ]
+      }
+    }
+  }
+}
