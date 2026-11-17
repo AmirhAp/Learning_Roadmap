@@ -1,0 +1,35 @@
+{
+  "guitar-theory": {
+    "title": "Guitar Music Theory",
+    "sessions": {
+      "1.1": {
+        "title": "Musical Intervals",
+        "objectives": [
+          "Identify basic musical intervals",
+          "Understand semitones and whole tones",
+          "Play intervals on the guitar"
+        ],
+        "topics": [
+          "Pitch distance",
+          "Interval names",
+          "Intervals on the fretboard"
+        ],
+        "prerequisites": []
+      },
+      "1.2": {
+        "title": "Major Scale Construction",
+        "objectives": [
+          "Understand the major scale formula",
+          "Construct major scales",
+          "Play major scales on the guitar"
+        ],
+        "topics": [
+          "Whole and half steps",
+          "Major scale structure",
+          "Scale degrees"
+        ],
+        "prerequisites": ["1.1"]
+      }
+    }
+  }
+}
